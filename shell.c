@@ -8,7 +8,7 @@
 
 
 int main(){
-	char command[200], new_command[200], cmdtok[200], env_copy[500], *token, *env;
+	char command[200], new_command[200], env_copy[500], *token, *env;
 	int pid, stat;
 	env = getenv("PATH");
 	
